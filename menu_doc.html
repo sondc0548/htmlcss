@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>menu doc</title>
+<style type="text/css">
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	body{
+		width:990px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;	
+	}
+	#menu ul{
+		background:#00CC00;
+		width:250px;
+		padding:0px;
+		list-style-type:none;
+	}
+	#menu ul li
+	{	
+		width:auto;
+		color:#f1f1f1;
+		height:40px;
+		line-height:40px;
+		padding:0 1em;
+		border-bottom:1px solid #666666;	
+		position:relative;	
+	}
+	#menu ul li:hover
+	{
+		background:#CDE2CD;
+		color:#f1f1f1;
+	}
+	#menu ul li a
+	{
+		text-decoration:none;
+		display:block;
+		font-weight:bold;		
+		color:#333;
+	}
+	/*==Dropdown Menu==*/
+	#menu ul li> .submenu
+	{
+		display:none;
+		position:absolute;
+		left:250px;
+		top:0px;	
+	}
+	#menu ul li:hover .submenu
+	{
+		display:block;
+	}
+	
+</style>
+</head>
+<body>
+	<div id="menu">
+    	<ul>
+        	<li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Item 2</a>
+            	<ul class="submenu">
+                	<li><a href="#">Item 2.1</a></li>
+                    <li><a href="#">Item 2.2</a></li>
+                    <li><a href="#">Item 2.3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a> </li>
+            <li><a href="#">item 5</a></li>
+        </ul>
+    </div>
+</body>
+</html>

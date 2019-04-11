@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:0px;
+}
+/*end reset css*/
+.wrapper {
+	width: 990px;
+	margin: 0 auto;
+}
+.banner{
+	height:260px;
+	width:100%;
+}
+/*==main menu==*/
+#mainmenu{
+	width:990px;
+	height:40px;
+}
+#mainmenu ul{
+	width:100%;
+	list-style-type:none;	
+	text-align:center;
+	background-color:#66CC66;
+}
+#mainmenu ul li{
+	height:40px;
+	line-height:40px;
+	width:119px;
+	color:#f1f1f1;
+	display:inline-table;
+	border-left:1px solid #FF3333;
+	position:relative;
+
+}
+#mainmenu ul li a{
+	text-decoration:none;
+	font-weight:bold;
+	color:#f1f1f1;	
+	font-size:15px;
+	display:block;
+}
+#mainmenu ul li a:hover
+{
+	background:#f1f1f1;
+	color:orange;	
+}
+/*==end main menu==*/
+.slideshow{
+	width:100%;
+	height:260px;
+}
+.content{
+	width:100%;
+	margin-top: 10px;
+}
+/*==sidebar left==*/
+.sidebarleft{
+	width:200px;
+	float:left;
+}
+.box_top{
+    background:#0099FF;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font:Arial, Helvetica, sans-serif 12px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	text-transform:uppercase;
+}
+.box_cen{
+	border-top:none;
+	height:auto;
+	border: 1px solid #0099FF;
+	margin-bottom:10px;
+}
+#menu_left ul{
+	width:198px;
+	list-style-type:none;
+	text-align:left;
+}
+#menu_left ul li{
+	width:auto;
+	position:relative;
+	height:30px;
+	line-height:30px;
+	color:#f1f1f1;
+	border-bottom:1px solid #999999;
+	display:block;
+	background-color:#f1f1f1;
+}
+#menu_left ul li:hover{
+	background-color:#9F0;	
+}
+#menu_left ul li a{
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:30px;
+	color:#0099FF;
+}
+#menu_left ul li a:hover{
+	color:red;
+}
+/*drop down menu*/
+#menu_left .submenu{
+    display:none;
+	position:absolute;
+	top:0px;
+	left:200px;
+	background-color:#9F0;
+}
+#menu_left ul li:hover .submenu{
+	display:block;	
+}
+.formtimkiem {
+	text-align: center;
+	padding: 5px;
+}
+.select {
+	color: #06F;
+	width: 150px;
+	border: 1px solid #09F;
+	margin-bottom:5px;
+}
+.online {
+	font-size:14px;
+	padding:5px 0px;	
+	line-height: 15px;
+	text-align: center;
+}
+/*==end sidebar left==*/
+/*== sanpham==*/
+.sidebarcenter{
+	width:570px;
+}
+.sanpham{
+	width:100%;
+	height:auto;
+}
+.sanphamtop{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background-color:#09F;
+	color:#FFF;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+}
+.sanpham_cen{
+	width:553px;
+	border-top:none;
+	border: 1px solid #06F;
+	padding-left:15px;
+	overflow:hidden;
+}
+.sanpham_box{
+	width:170px;	
+	margin:10px 10px 10px 0px;	
+	padding-top:10px;
+	height: 220px;
+	float:left;
+	text-align:center;
+	border:1px solid #D7FFFE;
+}
+
+/*==end sanpham==*/
+/*==sidebar right==*/
+.sidebarright{
+	width:200px;
+	float:right;
+}
+.itemlist{
+	text-align:left;
+	line-height:20px;
+	font-size:14px;
+	display:block;
+	padding-left:5px;
+    margin:10px 0px;
+	list-style-type:none;
+	list-style-image: url(../images/arrow-list.gif);
+	list-style-position: inside;
+}
+.linkdo a{
+	color:red;
+}
+.linkdo a:hover{
+	color:green;
+}
+/*.linkdo a:visited{
+	color:#09F;
+}*/
+.linkcam a{
+	color:#F90;
+}
+.linkcam a:hover{
+	color:#66F;
+}
+.blue a{
+	color:#06F;
+}
+.blue a:hover{
+	color:#F30;
+}
+/*.blue a:visited{
+	color:#63F;
+}*/
+.formlogin{
+	padding:5px;
+	line-height:20px;
+}
+.username {
+	background-image: url(../images/username.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left: 20px;
+	border:1px solid #09F;
+	width: 110px;
+}
+.password {
+	background-image: url(../images/password.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding-left: 20px;
+	border:1px solid #09F;
+	width: 110px;
+}
+.col_user{
+	float:left;
+}
+.col_input{
+	float:right;
+}
+.dodam {
+	font-size: 14px;
+	font-weight: bold;
+	color: #F00;
+}
+.giohang{
+	text-align:center;
+	line-height:30px;
+}
+.xemgiohang{
+	margin-left:25%;
+	width:100px;
+	height:30px;
+	background-color:#06F;
+	text-align:center;
+	margin-bottom:10px;
+}
+.xemgiohang a{
+	font-weight:bold;
+	font-size:14px;
+	color:#FFF;
+}
+.nutdangnhap{
+	text-align:center;
+}
+/*==end sidebar right==*/
+.sidebarcenter{
+	width:570px;
+	float:left;
+	margin-left: 10px;
+}
+.clear {
+	clear: both;
+}
+.footer {
+	padding-top:10px;
+	height: 100px;
+	line-height:20px;
+	width: 100%;
+	font-weight:bold;
+	font-size:14px;
+    text-align:center;
+}
+
+
+
